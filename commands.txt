@@ -1,0 +1,144 @@
+    1  code .
+    2  nano chapter_1.txt
+    3  git add .
+    4  git init
+    5  git add .
+    6  git add .
+    7  git init
+    8  git add README.md
+    9  git commit -m "first commit"
+   10  git branch -M main
+   11  git remote add origin https://github.com/zeninaleksej-create/book.git
+   12  git push -u origin main
+   13  git add .
+   14  git commit
+   15  git status
+   16  git push
+   17  git push --set-upstream origin main
+   18  ls -a
+   19  git status
+   20  git commit -m "Add intro of book"
+   21  git config --global user.name "Zenin Aleksej"
+   22  git config --global user.email "zeninaleksej@gmail.com"
+   23  git commit -m "Add intro of book"
+   24  git remote add origin https://github.com/zeninaleksej-create/book.git
+   25  git remote -v
+   26  git push
+   27  git push -u origin main
+   28  git status
+   29  git log
+   30  git add .
+   31  git status
+   32  git push
+   33  git push -u origin main
+   34  nano capter_1
+   35  git status
+   36  git add .
+   37  git commit
+   38  git status
+   39  git log
+   40  git push
+   41  git commit
+   42  ls
+   43  git status
+   44  git commit -m "Add chapter"
+   45  git push
+   46  git commit
+   47  mkdir my_project
+   48  cd my_project
+   49  git init
+   50  mkdir folder1 folder2
+   51  echo "Содержание файла file1.txt" > folder1/file1.txt
+   52  echo "Ещё содержание файла file2.txt" > folder1/file2.txt
+   53  echo "Файл в второй папке file3.txt" > folder2/file3.txt
+   54  echo "И ещё файл file4.txt" > folder2/file4.txt
+   55  git add .
+   56  git commit -m "Первый коммит"
+   57  nano project_folder/folder1/file1.txt
+   58  mkdir my_project
+   59  [200~
+   60  MacBook Air@DESKTOP-IPD8KH3 MINGW64 ~/Desktop/my_progect
+   61  $ mkdir my_project
+   62  MacBook Air@DESKTOP-IPD8KH3 MINGW64 ~/Desktop/my_progect
+   63  $
+   64  git config --global user.name
+   65  git config --global user.email
+   66  cd main_folder
+   67  mkdir main_folder
+   68  cd main_folder
+   69  mkdir subfolder1 subfolder2
+   70  touch subfolder1/file1.txt subfolder1/file2.txt subfolder2/file3.txt subfolder2/file4.txt
+   71  git init
+   72  git add .
+   73  git commit -m "First commit"
+   74  nano subfolder1/file1.txt
+   75  git add subfolder1/file1.txt
+   76  git commit -m "Changed the first commit"
+   77  mkdir new_subfolder
+   78  touch new_subfolder/new_file.txt
+   79  git add new_subfolder
+   80  git commit -m "Added a new folder"
+   81  nano new_subfolder/new_file.txt
+   82  git status
+   83  git checkout new_subfolder/new_file.txt
+   84  nano new_subfolder/new_file.txt
+   85  git add new_subfolder/new_file.txt
+   86  git reset HEAD new_subfolder/new_file.txt
+   87  nano new_subfolder/new_file.txt
+   88  git add new_subfolder/new_file.txt
+   89  git commit -m "Altered again"
+   90  git log --oneline
+   91  git revert HEAD
+   92  git reset --hard <Предыдущий коммит>
+   93  nano new_subfolder/new_file.txt
+   94  git add new_subfolder/new_file.txt
+   95  git commit --amend -m "Change 3"
+   96  history > command.txt
+   97  echo "# my_progect" >> README.md
+   98  git init
+   99  git add README.md
+  100  git commit -m "first commit"
+  101  git branch -M main
+  102  git remote add origin https://github.com/zeninaleksej-create/my_progect.git
+  103  git push -u origin main
+  104  git add .
+  105  git commit -m "Добавлена новая папка"
+  106  git push origin main
+  107  git add .
+  108  git commit -m "Добавлена новая папка"
+  109  git push origin main
+  110  mkdir main_folder
+  111  cd main_folder
+  112  mkdir subfolder1 subfolder2
+  113  touch subfolder1/file1.txt subfolder1/file2.txt subfolder2/file3.txt subfolder2/file4.txt
+  114  git init
+  115  git add .
+  116  git commit -m "First commit"
+  117  nano subfolder1/file1.txt
+  118  git add subfolder1/file1.txt
+  119  [200~git commit -m "Changed the first file in subfolder1"
+  120  git commit -m "Changed the first file in subfolder1"
+  121  mkdir new_subfolder
+  122  touch new_subfolder/new_file.txt
+  123  git add new_subfolder
+  124  git commit -m "Added a new folder with data"
+  125  nano new_subfolder/new_file.txt
+  126  git status
+  127  git checkout new_subfolder/new_file.txt
+  128  nano new_subfolder/new_file.txt
+  129  git add new_subfolder/new_file.txt
+  130  git reset HEAD new_subfolder/new_file.txt
+  131  nano new_subfolder/new_file.txt
+  132  git add new_subfolder/new_file.txt
+  133  git commit -m "Altered new_file again"
+  134  git log --oneline
+  135  git revert HEAD
+  136  git log --onelinegit log --oneline
+  137  git reset --hard <хэш предыдущего стабильного коммита>
+  138  nano new_subfolder/new_file.txt
+  139  git add new_subfolder/new_file.txt
+  140  git commit --amend -m "Updated last commit"
+  141   git branch -M main
+  142  git remote add origin https://github.com/zeninaleksej-create/my_progect.git
+  143  git push -u origin main
+  144  history > commands.txt
